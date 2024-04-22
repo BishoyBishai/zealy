@@ -1,10 +1,11 @@
-import { Button } from "@/components/ui/Button";
+import { Layout } from "@/components/layout/Layout";
+import { Home } from "@/pages/Home/Home";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      <Button>Hello Zealy!</Button>
-    </h1>
+    <Layout>
+      <Home />
+    </Layout>
   );
 }
 
